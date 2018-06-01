@@ -21,14 +21,8 @@ requirements:
     - python
 
 test:
-  source_files:
-    - tests
   imports:
     - atomicwrites
-  commands:
-    - pytest tests
-  requires:
-    - pytest
 
 about:
   home: https://github.com/untitaker/python-atomicwrites
