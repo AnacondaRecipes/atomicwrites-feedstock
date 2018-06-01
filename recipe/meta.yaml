@@ -23,17 +23,11 @@ requirements:
     - python
 
 test:
-  source_files:
-    - tests
 
   imports:
     - atomicwrites
 
-  commands:
-    - py.test tests
 
-  requires:
-    - pytest
 
 about:
   home: https://github.com/untitaker/python-atomicwrites
